@@ -121,6 +121,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                     context: {
                         language: props.locale,
                         engineVersion: process.env.NEXT_PUBLIC_SURVEY_ENGINE_VERSION,
+                        group: props.surveyWithContext.context?.participantFlags?.group,
                     }
                 }
                 onSubmit(response);

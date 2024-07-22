@@ -13,6 +13,7 @@ export const submitResponses = async (studyKey: string, participantID: string, r
     const filename = timestamp + '_' + participantID + '.json';
 
     response.submittedAt = Math.floor(Date.now() / 1000);
+    response.participantId = participantID;
 
     try {
         await fs.access(responsesDir);

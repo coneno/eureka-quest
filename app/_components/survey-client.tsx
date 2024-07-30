@@ -109,6 +109,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
             invalidResponseText={props.messages.invalidResponseText}
             customResponseComponents={[]}
             dateLocales={surveyDateLocales}
+            hideBackButton={true}
 
             onSubmit={(responses, version) => {
                 const now = Math.round(new Date().getTime() / 1000);

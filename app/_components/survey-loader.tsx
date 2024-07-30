@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 import SurveyClient, { SurveyWithContext } from './survey-client';
 
 interface SurveyLoaderProps {
-
+    externalPID?: string;
 }
 
 const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
@@ -15,7 +15,7 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     const survey = JSON.parse(file) as Survey;
 
     // Generate a new UUID for the profileID
-    const participantID = uuidv4();
+    const participantID = props.externalPID ? props.externalPID : uuidv4();
 
 
     const surveyWithContext: SurveyWithContext = {

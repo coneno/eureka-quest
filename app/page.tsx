@@ -4,7 +4,14 @@ import SurveyLoader from "./_components/survey-loader";
 
 export const dynamic = 'force-dynamic';
 
-export default function Page() {
+interface SurveyPageProps {
+    searchParams: {
+        PROLIFIC_PID?: string;
+    };
+}
+
+export default function Page(props: SurveyPageProps) {
+    const pid = props.searchParams.PROLIFIC_PID;
 
     return (
         <main
@@ -16,7 +23,9 @@ export default function Page() {
             <Suspense
                 fallback={<SimpleLoader />}
             >
-                <SurveyLoader />
+                <SurveyLoader
+                    externalPID={pid}
+                />
             </Suspense>
         </main>
     );

@@ -2,6 +2,8 @@ import SimpleLoader from "@/components/simple-loader";
 import { Suspense } from "react";
 import SurveyLoader from "./_components/survey-loader";
 
+export const dymanic = 'force-dynamic';
+
 export default function Page() {
 
     return (

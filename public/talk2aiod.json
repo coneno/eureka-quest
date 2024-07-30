@@ -1,0 +1,1893 @@
+{
+  "availableFor": "active_participants",
+  "surveyDefinition": {
+    "key": "talk2aiod",
+    "items": [
+      {
+        "key": "talk2aiod.consent",
+        "metadata": {
+          "editorItemColor": "#7e22ce"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "role": "title",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "To participate in this study, you have to agree to the informed consent."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "rg",
+              "role": "responseGroup",
+              "items": [
+                {
+                  "key": "con",
+                  "role": "consent",
+                  "items": [
+                    {
+                      "key": "label",
+                      "role": "label",
+                      "content": [
+                        {
+                          "code": "en",
+                          "parts": [
+                            {
+                              "str": "Informed consent"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "title",
+                      "role": "title",
+                      "content": []
+                    },
+                    {
+                      "key": "content",
+                      "role": "content",
+                      "content": [
+                        {
+                          "code": "en",
+                          "parts": [
+                            {
+                              "str": "\"Add informed consent information here\""
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "acceptBtn",
+                      "role": "acceptBtn",
+                      "content": [
+                        {
+                          "code": "en",
+                          "parts": [
+                            {
+                              "str": "I accept"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "rejectBtn",
+                      "role": "rejectBtn",
+                      "content": [
+                        {
+                          "code": "en",
+                          "parts": [
+                            {
+                              "str": "I decline (this ends the survey)"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "validations": [
+          {
+            "key": "7hnh",
+            "type": "hard",
+            "rule": {
+              "name": "hasResponse",
+              "data": [
+                {
+                  "str": "talk2aiod.consent"
+                },
+                {
+                  "str": "rg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "talk2aiod.PB_Szqv",
+        "type": "pageBreak"
+      },
+      {
+        "key": "talk2aiod.experience",
+        "metadata": {
+          "editorItemColor": "#b91c1c"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "role": "title",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "How much experience do you have with the AIoD platform?"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "rg",
+              "role": "responseGroup",
+              "items": [
+                {
+                  "key": "slider",
+                  "role": "sliderNumeric",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "none"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "properties": {}
+                }
+              ]
+            }
+          ]
+        },
+        "validations": [
+          {
+            "key": "z9jl",
+            "type": "hard",
+            "rule": {
+              "name": "hasResponse",
+              "data": [
+                {
+                  "str": "talk2aiod.experience"
+                },
+                {
+                  "str": "rg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "talk2aiod.demographics",
+        "items": [
+          {
+            "key": "talk2aiod.demographics.age",
+            "metadata": {
+              "editorItemColor": "#4d7c0f"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "How old are you?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "ic",
+                      "role": "input"
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "g6hv",
+                "type": "hard",
+                "rule": {
+                  "name": "hasResponse",
+                  "data": [
+                    {
+                      "str": "talk2aiod.demographics.age"
+                    },
+                    {
+                      "str": "rg"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "talk2aiod.demographics.gender",
+            "metadata": {
+              "editorItemColor": "#0369a1"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "What is your gender?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "scg",
+                      "role": "singleChoiceGroup",
+                      "items": [
+                        {
+                          "key": "fc7",
+                          "role": "option",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "male"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rdv8",
+                          "role": "option",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "female"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "eajc",
+                          "role": "option",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "non-binary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "xhc",
+                          "role": "option",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "no comment"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "1bsd",
+                          "role": "input",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "other (please specify)"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "order": {
+                        "name": "sequential"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "u3w8",
+                "type": "hard",
+                "rule": {
+                  "name": "hasResponse",
+                  "data": [
+                    {
+                      "str": "talk2aiod.demographics.gender"
+                    },
+                    {
+                      "str": "rg"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "talk2aiod.demographics.origin",
+            "metadata": {
+              "editorItemColor": "#404040"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "What is your country of origin?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "ic",
+                      "role": "input"
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "ta8n",
+                "type": "hard",
+                "rule": {
+                  "name": "hasResponse",
+                  "data": [
+                    {
+                      "str": "talk2aiod.demographics.origin"
+                    },
+                    {
+                      "str": "rg"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "key": "talk2aiod.demographics.residence",
+            "metadata": {
+              "editorItemColor": "#c2410c"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "What is your country of residence?"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "ic",
+                      "role": "input"
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "7pt",
+                "type": "hard",
+                "rule": {
+                  "name": "hasResponse",
+                  "data": [
+                    {
+                      "str": "talk2aiod.demographics.residence"
+                    },
+                    {
+                      "str": "rg"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "selectionMethod": {
+          "name": "sequential"
+        },
+        "metadata": {
+          "editorItemColor": "#c2410c"
+        }
+      },
+      {
+        "key": "talk2aiod.PB_Apxk",
+        "type": "pageBreak"
+      },
+      {
+        "key": "talk2aiod.chatbot",
+        "items": [
+          {
+            "key": "talk2aiod.chatbot.intro",
+            "metadata": {
+              "editorItemColor": "#b91c1c"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "key": "T9X",
+                  "role": "markdown",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "You were assigned the chatbot condition. Please answer the following questions using the chatbot found here: \"link that opens a new tab with the uuid of the participant\"&#x20;\nBe aware that we log all interactions with the chatbot."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "talk2aiod.chatbot.PB_KaXe",
+            "type": "pageBreak"
+          },
+          {
+            "key": "talk2aiod.chatbot.questions",
+            "items": [
+              {
+                "key": "talk2aiod.chatbot.questions.about",
+                "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.about.about",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Who is behind the AIoD platform?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the chatbot \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "yhed",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.chatbot.questions.about.about"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.chatbot.questions.about.PB_qmYL",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#86198f"
+                }
+              },
+              {
+                "key": "talk2aiod.chatbot.questions.uses",
+                "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.uses.uses",
+                    "metadata": {
+                      "editorItemColor": "#047857"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Name two services/functions that are part of the AIoD platform?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the chatbot \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "yi2",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.chatbot.questions.uses.uses"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.chatbot.questions.uses.PB_yxdw",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#a16207"
+                }
+              },
+              {
+                "key": "talk2aiod.chatbot.questions.purpose",
+                "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.purpose.purpose",
+                    "metadata": {
+                      "editorItemColor": "#7e22ce"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "What is the main purpose of AIoD?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the chatbot \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "9al",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.chatbot.questions.purpose.purpose"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.chatbot.questions.purpose.PB_yzoK",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#0369a1"
+                }
+              },
+              {
+                "key": "talk2aiod.chatbot.questions.mushrooms",
+                "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.mushrooms.mushroom",
+                    "metadata": {
+                      "editorItemColor": "#4338ca"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Please find the mushroom dataset by Jeff Schlimmer. Describe how you searched for it and paste the final link.\n"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the chatbot \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "9k8",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.chatbot.questions.mushrooms.mushroom"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.chatbot.questions.mushrooms.PB_kzDS",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#047857"
+                }
+              },
+              {
+                "key": "talk2aiod.chatbot.questions.metadata",
+                "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.metadata.metadata",
+                    "metadata": {
+                      "editorItemColor": "#4338ca"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Please find the AIoD metadata catalogue and describe its functionality. Describe how you searched for it and paste the final link.\n"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the chatbot \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "yvg",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.chatbot.questions.metadata.metadata"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.chatbot.questions.metadata.PB_zY6P",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#4338ca"
+                }
+              }
+            ],
+            "metadata": {
+              "editorItemColor": "#0369a1"
+            }
+          },
+          {
+            "key": "talk2aiod.chatbot.PB_WscF",
+            "type": "pageBreak"
+          },
+          {
+            "key": "talk2aiod.chatbot.umux",
+            "metadata": {
+              "editorItemColor": "#86198f"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": []
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "rsca",
+                      "role": "responsiveSingleChoiceArray",
+                      "items": [
+                        {
+                          "role": "options",
+                          "items": [
+                            {
+                              "key": "aosb",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Strongly disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "fir",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "dlls",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Somewhat disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "p5ir",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Neither agree nor disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "ycy5",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Somewhat agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "lfx",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "n7rl",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Strongly Agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "oudc",
+                          "role": "row",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "The chatbots' capabilities meet my requirements."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "1xvc",
+                          "role": "row",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "The chatbot is easy to use."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "style": [
+                        {
+                          "key": "defaultMode",
+                          "value": "table"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "tlmb",
+                "type": "hard",
+                "rule": {
+                  "name": "and",
+                  "data": [
+                    {
+                      "dtype": "exp",
+                      "exp": {
+                        "name": "hasResponse",
+                        "data": [
+                          {
+                            "dtype": "str",
+                            "str": "talk2aiod.chatbot.umux"
+                          },
+                          {
+                            "dtype": "str",
+                            "str": "rg.rsca.oudc"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "dtype": "exp",
+                      "exp": {
+                        "name": "hasResponse",
+                        "data": [
+                          {
+                            "dtype": "str",
+                            "str": "talk2aiod.chatbot.umux"
+                          },
+                          {
+                            "dtype": "str",
+                            "str": "rg.rsca.1xvc"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "selectionMethod": {
+          "name": "sequential"
+        },
+        "metadata": {
+          "editorItemColor": "#0369a1"
+        }
+      },
+      {
+        "key": "talk2aiod.website",
+        "items": [
+          {
+            "key": "talk2aiod.website.intro",
+            "metadata": {
+              "editorItemColor": "#b91c1c"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "key": "T9X",
+                  "role": "markdown",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "You were assigned the website condition. Please answer the following questions using the website found here: \"link that opens a new tab with the uuid of the participant\"&#x20;\n"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "key": "talk2aiod.website.PB_urwr",
+            "type": "pageBreak"
+          },
+          {
+            "key": "talk2aiod.website.questions",
+            "items": [
+              {
+                "key": "talk2aiod.website.questions.about",
+                "items": [
+                  {
+                    "key": "talk2aiod.website.questions.about.about",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Who is behind the AIoD platform?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the website\"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "bups",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.website.questions.about.about"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.website.questions.about.PB_qmYL",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#86198f"
+                }
+              },
+              {
+                "key": "talk2aiod.website.questions.uses",
+                "items": [
+                  {
+                    "key": "talk2aiod.website.questions.uses.uses",
+                    "metadata": {
+                      "editorItemColor": "#047857"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Name two services/functions that are part of the AIoD platform?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the website\"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "cpno",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.website.questions.uses.uses"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.website.questions.uses.PB_yxdw",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#a16207"
+                }
+              },
+              {
+                "key": "talk2aiod.website.questions.purpose",
+                "items": [
+                  {
+                    "key": "talk2aiod.website.questions.purpose.purpose",
+                    "metadata": {
+                      "editorItemColor": "#7e22ce"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "What is the main purpose of AIoD?"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the website \"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "bwt",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.website.questions.purpose.purpose"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.website.questions.purpose.PB_yzoK",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#0369a1"
+                }
+              },
+              {
+                "key": "talk2aiod.website.questions.mushrooms",
+                "items": [
+                  {
+                    "key": "talk2aiod.website.questions.mushrooms.mushroom",
+                    "metadata": {
+                      "editorItemColor": "#4338ca"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Please find the mushroom dataset by Jeff Schlimmer. Describe how you searched for it and paste the final link.\n"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the website\"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "wev",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.website.questions.mushrooms.mushroom"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.website.questions.mushrooms.PB_kzDS",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#047857"
+                }
+              },
+              {
+                "key": "talk2aiod.website.questions.metadata",
+                "items": [
+                  {
+                    "key": "talk2aiod.website.questions.metadata.metadata",
+                    "metadata": {
+                      "editorItemColor": "#4338ca"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "role": "title",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Please find the AIoD metadata catalogue and describe its functionality. Describe how you searched for it and paste the final link.\n"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "ic",
+                              "role": "multilineTextInput"
+                            }
+                          ]
+                        },
+                        {
+                          "role": "subtitle",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "Use this link to get to the website\"link that opens a new tab with the uuid of the participant\""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "validations": [
+                      {
+                        "key": "e5zd",
+                        "type": "hard",
+                        "rule": {
+                          "name": "hasResponse",
+                          "data": [
+                            {
+                              "str": "talk2aiod.website.questions.metadata.metadata"
+                            },
+                            {
+                              "str": "rg"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "key": "talk2aiod.website.questions.metadata.PB_zY6P",
+                    "type": "pageBreak"
+                  }
+                ],
+                "selectionMethod": {
+                  "name": "sequential"
+                },
+                "metadata": {
+                  "editorItemColor": "#4338ca"
+                }
+              }
+            ],
+            "metadata": {
+              "editorItemColor": "#0369a1"
+            }
+          },
+          {
+            "key": "talk2aiod.website.PB_unwE",
+            "type": "pageBreak"
+          },
+          {
+            "key": "talk2aiod.website.umux",
+            "metadata": {
+              "editorItemColor": "#86198f"
+            },
+            "components": {
+              "role": "root",
+              "order": {
+                "name": "sequential"
+              },
+              "items": [
+                {
+                  "role": "title",
+                  "content": []
+                },
+                {
+                  "key": "rg",
+                  "role": "responseGroup",
+                  "items": [
+                    {
+                      "key": "rsca",
+                      "role": "responsiveSingleChoiceArray",
+                      "items": [
+                        {
+                          "role": "options",
+                          "items": [
+                            {
+                              "key": "aosb",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Strongly disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "fir",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "dlls",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Somewhat disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "p5ir",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Neither agree nor disagree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "ycy5",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Somewhat agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "lfx",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "key": "n7rl",
+                              "role": "option",
+                              "content": [
+                                {
+                                  "code": "en",
+                                  "parts": [
+                                    {
+                                      "str": "Strongly Agree"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "oudc",
+                          "role": "row",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "The websites' capabilities meet my requirements."
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "key": "1xvc",
+                          "role": "row",
+                          "content": [
+                            {
+                              "code": "en",
+                              "parts": [
+                                {
+                                  "str": "The website is easy to use."
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "style": [
+                        {
+                          "key": "defaultMode",
+                          "value": "table"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "validations": [
+              {
+                "key": "fpti",
+                "type": "hard",
+                "rule": {
+                  "name": "and",
+                  "data": [
+                    {
+                      "dtype": "exp",
+                      "exp": {
+                        "name": "hasResponse",
+                        "data": [
+                          {
+                            "dtype": "str",
+                            "str": "talk2aiod.website.umux"
+                          },
+                          {
+                            "dtype": "str",
+                            "str": "rg.rsca.oudc"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "dtype": "exp",
+                      "exp": {
+                        "name": "hasResponse",
+                        "data": [
+                          {
+                            "dtype": "str",
+                            "str": "talk2aiod.website.umux"
+                          },
+                          {
+                            "dtype": "str",
+                            "str": "rg.rsca.1xvc"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "selectionMethod": {
+          "name": "sequential"
+        },
+        "metadata": {
+          "editorItemColor": "#0369a1"
+        }
+      },
+      {
+        "key": "talk2aiod.PB_kRGn",
+        "type": "pageBreak"
+      },
+      {
+        "key": "talk2aiod.Y1S",
+        "type": "surveyEnd",
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "role": "title",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "Thank you for participating in our study!"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "selectionMethod": {
+      "name": "sequential"
+    }
+  },
+  "versionId": ""
+}

@@ -11,7 +11,7 @@ interface SurveyLoaderProps {
 }
 
 const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
-    const file = await fs.readFile(process.cwd() + '/public/TestSurvey.json', 'utf8');
+    const file = await fs.readFile(process.cwd() + '/public/talk2aiod.json', 'utf8');
     const survey = JSON.parse(file) as Survey;
 
     // Generate a new UUID for the profileID
@@ -27,8 +27,6 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
         },
     }
 
-    console.log('surveyWithContext', surveyWithContext.survey);
-
     return (
         <>
 
@@ -41,7 +39,7 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
                             previousPageBtn: 'Previous page',
                             nextPageBtn: 'Next page',
                             submitBtn: 'Submit',
-                            invalidResponseText: 'Invalid response',
+                            invalidResponseText: 'Check your responses',
                             submitError: 'Failed to submit response',
                         }}
                         openAt={Math.floor(Date.now() / 1000)}

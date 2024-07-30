@@ -22,7 +22,7 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
         survey: survey,
         context: {
             participantFlags: {
-                group: Math.random() > 0.5 ? 'A' : 'B',
+                group: Math.random() > 0.5 ? 'C' : 'W',
             },
         },
     }

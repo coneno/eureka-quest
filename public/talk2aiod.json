@@ -4,9 +4,65 @@
     "key": "talk2aiod",
     "items": [
       {
-        "key": "talk2aiod.consent",
+        "key": "talk2aiod.YBE",
         "metadata": {
-          "editorItemColor": "#7e22ce"
+          "editorItemColor": "#4d7c0f"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "key": "0e3",
+              "role": "markdown",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "**Welcome to our research study!  (2 -3 sätze keine überschneidung mit informed consent)**\n\nWe are interested in understanding how **people perceive webforms that assess their abilities**. We will ask you to produce a text in plain English about a specific topic. During this task you will be assessed by an intelligent scoring system. To conclude, we show you statements on your perceived performance and effort. We ask you to respond to these items. Please be assured that your responses will be anonymised."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "talk2aiod.J64",
+        "metadata": {
+          "editorItemColor": "#4d7c0f"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "key": "vA2",
+              "role": "markdown",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "**Informed Consent**\n\nYou are invited to participate in the study **Talk2AIoD** initiated and conducted by Lars Krupp, Jakob Karolus. The research is supervised by Prof. Dr. Paul Lukowicz. This study is funded and financed by the research project AI4Europe. Please note:\n\n* Your participation is entirely voluntary and can be withdrawn at any time.\n* All records and data will be subject to standard data use policies (See Section 5).\n\nThe alternative to participation in this study is to choose not to participate. If you have any questions or complaints about the whole informed consent process of this research study or your rights as a human research subject, please contact the ethical committee office (DFKI Ethics Comittee) and the responsible investigators (see Section 6). You should carefully read the information below. Please take the time you need to read the consent form.\n\n## 1. Goal of this Research\n\nThe goal of this research is to understand if sufficiently powerful chatbots can replace websites. Your participation will help us achieve this goal. The results of this research may be presented at scientific or professional meetings or published in scientific proceedings and journals.\n\n## 2. Participation and Compensation\n\nYour participation in this study is completely voluntary. You will be one of approximately 200 participants. You will receive 2 EUR as compensation for your participation. You may withdraw and discontinue participation at any time without penalty. You can deny answering questions if you feel uncomfortable in any way. The investigator may withdraw you from this research if continued participation will not meet the study goals or affect your well-being.\n\n## 3. Procedure\n\nAfter providing informed consent the procedure is as follows:\n\n1\\. You will get to answer a short demographics questionnaire.\n2\\. You will get assigned to either use a chatbot or website as a tool.\n3\\. You will be given questions to answer using this tool.\n4\\. You will answer a short questionnaire about how it was to use the tool.\n\nThe complete procedure of this study will last approximately 10 minutes.\n\n## 4. Risks and Prevention\n\nThere are no risks associated with this task. If any discomforts become a problem, you may discontinue your participation. The confirmation of participation in this study can be obtained directly from the researchers.\n\n## 5. Data Collection, Protection and Confidentiality\n\nThe following data will be recorded/collected:\n\n* Demographics (Gender, Age, Country of origin, Country of residence)\n* Questionnaire responses\n* UMUX-Lite questionnaire\n\n### 5.1 Purpose of Data Processing\n\nLars Krupp, Jakob Karolus collect(s) and further process(es) your personal data on the basis of the following purpose: Compare how participants' interact with a chatbot as a replacement for a website compared to the baseline.\n\n### 5.2 Legal Basis\n\nThe processing of personal research data in the context of this study is generally permissible even without consent, because the processing is necessary for the purposes of the study and is carried out for scientific research purposes in the public interest (Art. 6 para. 1, lit. e EU GDPR in conjunction with Art. 89 EU GDPR and Section 27 BDSG). For the direct protection of the interests and fundamental rights and freedoms of the participants, the consent of the participants to the processing including publication in accordance with Art. 6 para. 1 lit. a and Art. 7 EU GDPR is chosen as the legal basis. The processing of the participants' health data is lawful on the basis of the participants' express consent to the processing pursuant to Art. 9 para. 2 lit. a, Art. 6 para. 1 lit. a and Art. 7 EU GDPR.\n\n### 5.3 Data Recipients\n\nUnder the direct responsibility of DFKI, the personal data can only be published after pseudonymization or transmitted to research partners for their scientific research purposes in the field of Artificial Intelligence. The personal data may be transferred to processors for storage or resolution.\n\n### 5.4 No Automated Decision-Making\n\nYour personal data will not be used for any automated decision-making including profiling.\n\n### 5.5 Duration of Storage\n\nThe collected data will generally be stored for the duration of DFKI research activities in area Artificial Intelligence for at least 10 years as recommended by the German Research Foundation (DFG). They are to be published pseudonymized. Due to the pseudonymization, it is only possible to draw very limited conclusions about the identity of the person from the data.\n\n### 5.6 Transparency and Intervention\n\nThe research data recorded during the study will be stored pseudonymously. Identification information (e.g. name of the participant, address, contact details) is stored separately from the research data. A unique identifier (pseudonym) is generated which enables the research data to be assigned at a later date.\n\nTo ensure transparent and fair processing in the context of this study, data subjects have the following rights:\n\n* The right to access the personal data\n* The right to rectify or complete the personal data\n* The right to erase the personal data\n* The right to restrict the processing of personal data\n* The right to data portability\n* The right to withdraw the consent to the processing of personal data already granted\n\nIf you would like to exercise your rights, if you have comments, questions or concerns, or if you would like to submit a complaint regarding the collection and use of your personal data, please feel free to contact [lars.krupp@dfki.de](mailto:lars.krupp@dfki.de), [jakob.karolus@dfki.de](mailto:jakob.karolus@dfki.de). You may also contact the Data Protection Officer (datenschutz@dfki.de) in case of conflicts or issues related to the processing of your personal data.\n\n### 5.7 Right to Lodge a Complaint\n\nData subjects have the right to lodge a complaint with a supervisory authority if they are of the opinion that the processing of their personal data by this study violates statutory data protection regulations.\n\n## 6. Identification of Investigators\n\nIf you have any questions or concerns about the research, please feel free to contact:\n\nExperimenters:\nLars Krupp, Jakob Karolus\n[lars.krupp@dfki.de](mailto:lars.krupp@dfki.de), [jakob.karolus@dfki.de](mailto:jakob.karolus@dfki.de)\n\nPrincipal Investigator:\nProf. Dr. Paul Lukowicz\nTrippstadter Str. 122\n67663 Kaiserslautern, Germany\n[paul.lukowicz@dfki.de](mailto:paul.lukowicz@dfki.de)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "talk2aiod.NZ2",
+        "metadata": {
+          "editorItemColor": "#86198f"
         },
         "components": {
           "role": "root",
@@ -21,7 +77,86 @@
                   "code": "en",
                   "parts": [
                     {
-                      "str": "To participate in this study, you have to agree to the informed consent."
+                      "str": "I understand the explanation provided to me and I voluntarily agree to participate in this study. "
+                    }
+                  ]
+                }
+              ],
+              "style": [
+                {
+                  "key": "className",
+                  "value": "sticky-top"
+                }
+              ]
+            },
+            {
+              "key": "rg",
+              "role": "responseGroup",
+              "items": [
+                {
+                  "key": "scg",
+                  "role": "singleChoiceGroup",
+                  "items": [
+                    {
+                      "key": "lgn",
+                      "role": "option",
+                      "content": [
+                        {
+                          "code": "en",
+                          "parts": [
+                            {
+                              "str": "I consent"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "order": {
+                    "name": "sequential"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "validations": [
+          {
+            "key": "hrzs",
+            "type": "hard",
+            "rule": {
+              "name": "hasResponse",
+              "data": [
+                {
+                  "str": "talk2aiod.NZ2"
+                },
+                {
+                  "str": "rg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "key": "talk2aiod.VOP",
+        "metadata": {
+          "editorItemColor": "#a16207"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "role": "title",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "I agree that the researchers will record my data as stated above. I understand that all data will be treated confidentially and in compliance with the GDPR. I understand that the material will be anonymized and cannot be associated with my name. I understand that full anonymity cannot be guaranteed and a breach of confidentiality is always possible. "
                     }
                   ]
                 }
@@ -32,71 +167,27 @@
               "role": "responseGroup",
               "items": [
                 {
-                  "key": "con",
-                  "role": "consent",
+                  "key": "scg",
+                  "role": "singleChoiceGroup",
                   "items": [
                     {
-                      "key": "label",
-                      "role": "label",
+                      "key": "eqng",
+                      "role": "option",
                       "content": [
                         {
                           "code": "en",
                           "parts": [
                             {
-                              "str": "Informed consent"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "key": "title",
-                      "role": "title",
-                      "content": []
-                    },
-                    {
-                      "key": "content",
-                      "role": "content",
-                      "content": [
-                        {
-                          "code": "en",
-                          "parts": [
-                            {
-                              "str": "\"Add informed consent information here\""
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "key": "acceptBtn",
-                      "role": "acceptBtn",
-                      "content": [
-                        {
-                          "code": "en",
-                          "parts": [
-                            {
-                              "str": "I accept"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "key": "rejectBtn",
-                      "role": "rejectBtn",
-                      "content": [
-                        {
-                          "code": "en",
-                          "parts": [
-                            {
-                              "str": "I decline (this ends the survey)"
+                              "str": "I consent"
                             }
                           ]
                         }
                       ]
                     }
-                  ]
+                  ],
+                  "order": {
+                    "name": "sequential"
+                  }
                 }
               ]
             }
@@ -104,13 +195,13 @@
         },
         "validations": [
           {
-            "key": "7hnh",
+            "key": "b9ua",
             "type": "hard",
             "rule": {
               "name": "hasResponse",
               "data": [
                 {
-                  "str": "talk2aiod.consent"
+                  "str": "talk2aiod.VOP"
                 },
                 {
                   "str": "rg"
@@ -125,87 +216,12 @@
         "type": "pageBreak"
       },
       {
-        "key": "talk2aiod.experience",
-        "metadata": {
-          "editorItemColor": "#b91c1c"
-        },
-        "components": {
-          "role": "root",
-          "order": {
-            "name": "sequential"
-          },
-          "items": [
-            {
-              "role": "title",
-              "content": [
-                {
-                  "code": "en",
-                  "parts": [
-                    {
-                      "str": "How much experience do you have with the AIoD platform?"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "key": "rg",
-              "role": "responseGroup",
-              "items": [
-                {
-                  "key": "slider",
-                  "role": "sliderNumeric",
-                  "content": [
-                    {
-                      "code": "en",
-                      "parts": [
-                        {
-                          "str": "none"
-                        }
-                      ]
-                    }
-                  ],
-                  "description": [
-                    {
-                      "code": "en",
-                      "parts": [
-                        {
-                          "str": ""
-                        }
-                      ]
-                    }
-                  ],
-                  "properties": {}
-                }
-              ]
-            }
-          ]
-        },
-        "validations": [
-          {
-            "key": "z9jl",
-            "type": "hard",
-            "rule": {
-              "name": "hasResponse",
-              "data": [
-                {
-                  "str": "talk2aiod.experience"
-                },
-                {
-                  "str": "rg"
-                }
-              ]
-            }
-          }
-        ]
-      },
-      {
         "key": "talk2aiod.demographics",
         "items": [
           {
             "key": "talk2aiod.demographics.age",
             "metadata": {
-              "editorItemColor": "#4d7c0f"
+              "editorItemColor": "#0369a1"
             },
             "components": {
               "role": "root",
@@ -231,8 +247,10 @@
                   "role": "responseGroup",
                   "items": [
                     {
-                      "key": "ic",
-                      "role": "input"
+                      "key": "num",
+                      "role": "numberInput",
+                      "properties": {},
+                      "content": []
                     }
                   ]
                 }
@@ -240,7 +258,7 @@
             },
             "validations": [
               {
-                "key": "g6hv",
+                "key": "u8cj",
                 "type": "hard",
                 "rule": {
                   "name": "hasResponse",
@@ -502,6 +520,113 @@
         }
       },
       {
+        "key": "talk2aiod.PB_2Qzc",
+        "type": "pageBreak"
+      },
+      {
+        "key": "talk2aiod.intro",
+        "metadata": {
+          "editorItemColor": "#c2410c"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "key": "jE7",
+              "role": "markdown",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "Now to some questions about the AIoD platform you can find here: [https://aiod.eu](https://aiod.eu)&#x20;"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "key": "talk2aiod.experience",
+        "metadata": {
+          "editorItemColor": "#b91c1c"
+        },
+        "components": {
+          "role": "root",
+          "order": {
+            "name": "sequential"
+          },
+          "items": [
+            {
+              "role": "title",
+              "content": [
+                {
+                  "code": "en",
+                  "parts": [
+                    {
+                      "str": "How familiar are you with the AIoD platform? "
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "rg",
+              "role": "responseGroup",
+              "items": [
+                {
+                  "key": "slider",
+                  "role": "sliderNumeric",
+                  "content": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": "none"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": [
+                    {
+                      "code": "en",
+                      "parts": [
+                        {
+                          "str": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "properties": {}
+                }
+              ]
+            }
+          ]
+        },
+        "validations": [
+          {
+            "key": "z9jl",
+            "type": "hard",
+            "rule": {
+              "name": "hasResponse",
+              "data": [
+                {
+                  "str": "talk2aiod.experience"
+                },
+                {
+                  "str": "rg"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
         "key": "talk2aiod.PB_Apxk",
         "type": "pageBreak"
       },
@@ -546,6 +671,30 @@
               {
                 "key": "talk2aiod.chatbot.questions.about",
                 "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.about.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.chatbot.questions.about.about",
                     "metadata": {
@@ -629,6 +778,30 @@
                 "key": "talk2aiod.chatbot.questions.uses",
                 "items": [
                   {
+                    "key": "talk2aiod.chatbot.questions.uses.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
                     "key": "talk2aiod.chatbot.questions.uses.uses",
                     "metadata": {
                       "editorItemColor": "#047857"
@@ -710,6 +883,30 @@
               {
                 "key": "talk2aiod.chatbot.questions.purpose",
                 "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.purpose.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.chatbot.questions.purpose.purpose",
                     "metadata": {
@@ -793,6 +990,30 @@
                 "key": "talk2aiod.chatbot.questions.mushrooms",
                 "items": [
                   {
+                    "key": "talk2aiod.chatbot.questions.mushrooms.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
                     "key": "talk2aiod.chatbot.questions.mushrooms.mushroom",
                     "metadata": {
                       "editorItemColor": "#4338ca"
@@ -874,6 +1095,30 @@
               {
                 "key": "talk2aiod.chatbot.questions.metadata",
                 "items": [
+                  {
+                    "key": "talk2aiod.chatbot.questions.metadata.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.chatbot.questions.metadata.metadata",
                     "metadata": {
@@ -1178,6 +1423,17 @@
         },
         "metadata": {
           "editorItemColor": "#0369a1"
+        },
+        "condition": {
+          "name": "hasParticipantFlagKeyAndValue",
+          "data": [
+            {
+              "str": "group"
+            },
+            {
+              "str": "C"
+            }
+          ]
         }
       },
       {
@@ -1221,6 +1477,30 @@
               {
                 "key": "talk2aiod.website.questions.about",
                 "items": [
+                  {
+                    "key": "talk2aiod.website.questions.about.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.website.questions.about.about",
                     "metadata": {
@@ -1304,6 +1584,30 @@
                 "key": "talk2aiod.website.questions.uses",
                 "items": [
                   {
+                    "key": "talk2aiod.website.questions.uses.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
                     "key": "talk2aiod.website.questions.uses.uses",
                     "metadata": {
                       "editorItemColor": "#047857"
@@ -1385,6 +1689,30 @@
               {
                 "key": "talk2aiod.website.questions.purpose",
                 "items": [
+                  {
+                    "key": "talk2aiod.website.questions.purpose.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.website.questions.purpose.purpose",
                     "metadata": {
@@ -1468,6 +1796,30 @@
                 "key": "talk2aiod.website.questions.mushrooms",
                 "items": [
                   {
+                    "key": "talk2aiod.website.questions.mushrooms.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
                     "key": "talk2aiod.website.questions.mushrooms.mushroom",
                     "metadata": {
                       "editorItemColor": "#4338ca"
@@ -1549,6 +1901,30 @@
               {
                 "key": "talk2aiod.website.questions.metadata",
                 "items": [
+                  {
+                    "key": "talk2aiod.website.questions.metadata.info",
+                    "metadata": {
+                      "editorItemColor": "#b91c1c"
+                    },
+                    "components": {
+                      "role": "root",
+                      "order": {
+                        "name": "sequential"
+                      },
+                      "items": [
+                        {
+                          "key": "rg",
+                          "role": "responseGroup",
+                          "items": [
+                            {
+                              "key": "info",
+                              "role": ":taskInfo"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   {
                     "key": "talk2aiod.website.questions.metadata.metadata",
                     "metadata": {
@@ -1853,6 +2229,17 @@
         },
         "metadata": {
           "editorItemColor": "#0369a1"
+        },
+        "condition": {
+          "name": "hasParticipantFlagKeyAndValue",
+          "data": [
+            {
+              "str": "group"
+            },
+            {
+              "str": "W"
+            }
+          ]
         }
       },
       {

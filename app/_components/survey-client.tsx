@@ -7,6 +7,7 @@ import { Survey, SurveyResponse } from 'survey-engine/data_types';
 import { toast } from 'sonner';
 import { submitResponses } from '@/actions/submit-responses';
 import { enUS } from 'date-fns/locale';
+import TaskInfoSurveyComp from './task-info-survey-comp';
 
 const surveyDateLocales: Array<{ code: string, locale: any, format: string }> = [
     { code: 'en', locale: enUS, format: 'dd/MM/yyyy' },
@@ -67,6 +68,7 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
     return (
         <SurveyView
             loading={isPending}
+            participantID={props.profileID}
             survey={props.surveyWithContext.survey}
             context={props.surveyWithContext.context}
             prefills={props.surveyWithContext.prefill?.responses}
@@ -75,7 +77,13 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
             nextBtnText={props.messages.nextPageBtn}
             submitBtnText={props.messages.submitBtn}
             invalidResponseText={props.messages.invalidResponseText}
-            customResponseComponents={[]}
+            showEngineDebugMsg={false}
+            customResponseComponents={[
+                {
+                    name: ':taskInfo',
+                    component: TaskInfoSurveyComp,
+                }
+            ]}
             dateLocales={surveyDateLocales}
             hideBackButton={true}
 

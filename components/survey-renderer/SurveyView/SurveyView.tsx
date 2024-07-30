@@ -5,12 +5,14 @@ import { CustomSurveyResponseComponent } from '../SurveySingleItemView/ResponseC
 import SurveyPageView from './SurveyPageView/SurveyPageView';
 import SurveyProgress from './SurveyProgress/SurveyProgress';
 import { isFirefox } from 'react-device-detect';
+import { SurveyContext as SurveyViewCtx } from '../survey-context';
 
 interface SurveyViewProps {
     instanceKey?: string;
     loading?: boolean;
     survey: Survey;
     languageCode: string;
+    participantID: string;
     onSubmit: (responses: SurveySingleItemResponse[], version: string) => void;
     onResponsesChanged?: (responses: SurveySingleItemResponse[], version: string, surveyEngine?: SurveyEngineCore) => void;
     prefills?: SurveySingleItemResponse[];
@@ -110,19 +112,26 @@ const SurveyView: React.FC<SurveyViewProps> = (props) => {
     }
 
     return (
-        <div
-            ref={surveyRef}
-            className='focus:outline-none'
-            tabIndex={-1}>
-            {surveyPages.length > 1 ?
-                <div className="p-6">
-                    <SurveyProgress
-                        currentIndex={currentPage}
-                        totalCount={surveyPages.length}
-                    />
-                </div> : null}
-            {renderCurrentPage()}
-        </div>
+        <SurveyViewCtx.Provider value={{
+            participantID: props.participantID,
+            context: {
+                participantFlags: props.context?.participantFlags
+            }
+        }}>
+            <div
+                ref={surveyRef}
+                className='focus:outline-none'
+                tabIndex={-1}>
+                {surveyPages.length > 1 ?
+                    <div className="p-6">
+                        <SurveyProgress
+                            currentIndex={currentPage}
+                            totalCount={surveyPages.length}
+                        />
+                    </div> : null}
+                {renderCurrentPage()}
+            </div>
+        </SurveyViewCtx.Provider>
     );
 };
 

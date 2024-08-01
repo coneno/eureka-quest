@@ -23,7 +23,7 @@ const TaskInfoSurveyComp: React.FC<TaskInfoSurveyCompProps> = (props) => {
 
             variant={'outline'}>
             <Link
-                href={`https://survey.dfki.de/chatbot?pid=${surveyContext.participantID}`}
+                href={`https://survey.dfki.de/chatbot?id=${surveyContext.participantID}`}
                 target='_blank'
             >
                 Open Chatbot

@@ -2,7 +2,7 @@
 
 import SurveyView from '@/components/survey-renderer/SurveyView/SurveyView';
 import React from 'react';
-import { useRouter } from 'next/navigation';
+import { redirect, useRouter } from 'next/navigation';
 import { Survey, SurveyResponse } from 'survey-engine/data_types';
 import { toast } from 'sonner';
 import { submitResponses } from '@/actions/submit-responses';
@@ -61,7 +61,8 @@ const SurveyClient: React.FC<SurveyClientProps> = (props) => {
                 });
                 return;
             }
-            router.replace(`/success`);
+            // router.replace(`/success`);
+            redirect('https://app.prolific.com/submissions/complete?cc=C1CCKYY9')
         });
     }
 

@@ -7,11 +7,13 @@ export const dynamic = 'force-dynamic';
 interface SurveyPageProps {
     searchParams: {
         PROLIFIC_PID?: string;
+        group?: string;
     };
 }
 
 export default function Page(props: SurveyPageProps) {
     const pid = props.searchParams.PROLIFIC_PID;
+    const group = props.searchParams.group;
 
     return (
         <main
@@ -25,6 +27,7 @@ export default function Page(props: SurveyPageProps) {
             >
                 <SurveyLoader
                     externalPID={pid}
+                    externalGroupAssignment={group}
                 />
             </Suspense>
         </main>

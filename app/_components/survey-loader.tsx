@@ -8,7 +8,13 @@ import SurveyClient, { SurveyWithContext } from './survey-client';
 
 interface SurveyLoaderProps {
     externalPID?: string;
+    externalGroupAssignment?: string;
 }
+
+const getRandomGroupAssignment = (): string => {
+    return Math.random() > 0.5 ? 'C' : 'W';
+}
+
 
 const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
     const file = await fs.readFile(process.cwd() + '/public/talk2aiod.json', 'utf8');
@@ -16,13 +22,14 @@ const SurveyLoader: React.FC<SurveyLoaderProps> = async (props) => {
 
     // Generate a new UUID for the profileID
     const participantID = props.externalPID ? props.externalPID : uuidv4();
+    const groupAssignment = props.externalGroupAssignment ? props.externalGroupAssignment : getRandomGroupAssignment();
 
 
     const surveyWithContext: SurveyWithContext = {
         survey: survey,
         context: {
             participantFlags: {
-                group: Math.random() > 0.5 ? 'C' : 'W',
+                group: groupAssignment,
             },
         },
     }
